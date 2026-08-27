@@ -26,5 +26,9 @@ The program also detects suspicious readings by comparing each reading with its 
 These are the limits and warning considered:
 SAFE	Deepest/safest condition	Continue navigation
 CAUTION	:Above -80 m	Monitor depth closely
+
+
+
+I could not complete the second task code but i did make the circuit:(((
 WARNING	:Above -50 m	Reduce speed and prepare to change course
 DANGER:	Above -20 m	Stop and change course immediately
