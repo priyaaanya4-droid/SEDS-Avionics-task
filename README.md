@@ -19,7 +19,10 @@ shallow_zone – points close to the shallowest area
 rapid_changes – locations with rapid depth changes
 4. Noise Cleaning
 
-To reduce random sensor noise, the program uses a 5-reading moving average-which smooths out the graph 
+
+5.Suspicious Points: The program checks each reading against the readings immediately before and after it. If a reading differs from both neighbouring readings by more than 100 m, it is marked as suspicious. These points are then removed from the dataset before smoothing, helping prevent unusual sensor errors from affecting the final graph.
+
+6.To reduce random sensor noise, the program uses a 5-reading moving average-which smooths out the graph 
 
 The program also detects suspicious readings by comparing each reading with its neighbouring values and removes them before smoothing.
 
