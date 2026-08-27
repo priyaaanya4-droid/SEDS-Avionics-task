@@ -28,10 +28,12 @@ The program also detects suspicious readings by comparing each reading with its 
 
 These are the limits and warning considered:
 SAFE	Deepest/safest condition	Continue navigation
-CAUTION	:Above -80 m	Monitor depth closely
+CAUTION	:Above -80 m	Monitor depth closelyWARNING	:Above -50 m	Reduce speed and prepare to change course
+DANGER:	Above -20 m	Stop and change course immediately
+
 
 
 
 I could not complete the second task code but i did make the circuit:(((
-WARNING	:Above -50 m	Reduce speed and prepare to change course
-DANGER:	Above -20 m	Stop and change course immediately
+
+The Tinkercad circuit was designed using an Arduino, LCD, light sensor, PING))) distance sensor, push button, LED, and buzzer. The circuit wiring is included in circuit.png.
